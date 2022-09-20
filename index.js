@@ -66,7 +66,7 @@ const arrayCamiones = [
         marca: "JMC",
         color: "blanco",
         precio: 5500,
-        imagen: "./assets/img/JMC_blanco.jpg"
+        imagen: "./assets/img/JMC_Blanco.jpg"
     },
 
     {
