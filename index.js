@@ -90,7 +90,7 @@ const arrayCamiones = [
         marca: "Mercedes Benz",
         color: "negro",
         precio: 6000,
-        imagen: "./assets/img/Mercedes_benz_negro.jpg"
+        imagen: "./assets/img/Mercedes_Benz_negro.jpg"
     },
 
     {
