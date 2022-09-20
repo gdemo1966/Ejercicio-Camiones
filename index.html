@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Camiones</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <h1>Filtro de camiones por marca y/o color</h1>
+        <form action="" class="formOpciones">
+            <div class="opciones-marca">
+                <select name="marca" id="marca">
+                    <option value="" disabled selected hidden>Marca</option>
+                    <option value="Todas">Todas las marcas</option>
+                    <option value="Ford">Ford</option>
+                    <option value="Iveco">Iveco</option>
+                    <option value="JMC">JMC</option>
+                    <option value="Mercedes Benz">Mercedes Benz</option>
+                    <option value="Scania">Scania</option>
+                    <option value="Volvo">Volvo</option>
+                </select>
+                <button class="boton" id="filtrarMarca">Filtrar por marca</button>
+            </div>
+            <div class="opciones-color">
+                <select name="color" id="color">
+                    <option value="" disabled selected hidden>Color</option>
+                    <option value="Todos">Todos los colores</option>
+                    <option value="Amarillo">Amarillo</option>
+                    <option value="Azul">Azul</option>
+                    <option value="Blanco">Blanco</option>
+                    <option value="Gris">Gris</option>
+                    <option value="Negro">Negro</option>
+                    <option value="Rojo">Rojo</option>
+                </select>
+                <button class="boton" id="filtrarColor">Filtrar por color</button>
+            </div>
+            <button class="botonAmbos" id="filtrarAmbos">Filtrar ambos</button>
+        </form>
+    
+        <!-- <p></p> -->
+        <div class="resultado" id="resultado">
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
